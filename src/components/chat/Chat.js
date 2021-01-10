@@ -4,8 +4,8 @@ import { useParams } from "react-router-dom";
 import "./Chat.css"
 import { Avatar, IconButton } from "@material-ui/core";
 import { AttachFile, InsertEmoticon, Mic, MoreVert, SearchOutlined } from "@material-ui/icons";
-import db from "./firebase";
-import { useStateValue } from "./StateProvider";
+import db from "../../firebase";
+import { useStateValue } from "../../StateProvider";
 import firebase from 'firebase'
 
 const Chat = () => {

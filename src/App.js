@@ -2,9 +2,9 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 import './App.css';
-import Sidebar from "./Sidebar";
-import Chat from "./Chat";
-import Login from "./Login";
+import Sidebar from "./components/sidebar/Sidebar";
+import Chat from "./components/chat/Chat";
+import Login from "./components/login/Login";
 import { useStateValue } from "./StateProvider";
 
 function App() {
