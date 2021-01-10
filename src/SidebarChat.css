@@ -21,4 +21,14 @@ a {
 
 .sidebarChat__info {
     margin-left: 15px;
+    flex: 1;
+    min-width: 0;
+    width: 100%;
 }
+
+.sidebarChat__info > p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
